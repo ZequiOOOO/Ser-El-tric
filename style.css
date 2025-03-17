@@ -1,0 +1,489 @@
+body {
+    background-color:rgb(197, 85, 19);
+    color: #fff;
+    font-family: 'open_sansligh';
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+    
+    /*height: 100vh; /* Ajusta a altura do corpo para ocupar 100% da altura da janela 
+     background-image: url('C:/Users/ezequiel/Downloads/Captura de SER-ELETRICA 2024-09-18 160404.png');
+    background-image: url(https://solarprime.com.br/wp-content/uploads/2023/02/post_thumbnail-3820c4e80fe1cdef94185cecf2a35806.jpeg);
+    background-size: cover; /* Faz a imagem cobrir todo o fundo /
+    background-position: center; /* Centraliza a imagem 
+    background-repeat: initial; 
+    overflow-x: hidden; /* Evita rolagem horizontal */
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    margin: -10px;
+    
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    }
+    main {
+        position: relative; /* Garante que o conteúdo principal fique acima da imagem */
+        z-index: 1; /* Coloca o conteúdo principal na frente da imagem */
+        margin-top: 76px;
+    }
+
+#title {
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+h1 {
+    font-weight: 200;
+    margin: 0;
+}
+
+a{
+    color: rgb(252, 252, 252);
+}
+
+a:hover{
+    margin-bottom: 20px;
+    color: rgb(36, 13, 49);
+    transition: 0.3s all;
+    content: '';
+    
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+    
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+/* Ajustes no main para garantir que o conteúdo fique acima da imagem */
+
+/* Estilo para o aside (benefícios) */
+.beneficios {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    z-index: 1; /* Garante que o conteúdo fique acima da imagem */
+}
+
+.beneficios h3 {
+    font-size: 2em;
+    color: #ffeb3b;
+    margin-bottom: 20px;
+}
+
+
+.beneficios p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.imagem-destaque {
+    position: absolute;
+    top: 0;
+    right: 0; /* Coloca a imagem no canto direito da tela */
+    z-index: 0;
+    width: 588px;
+    height: auto;
+}
+
+.imagem-destaque img {
+    width: 100%;
+    height: 80%;
+    opacity: 1.9;
+    margin: -103px;
+    padding-left: 240px;
+}
+    /*li{
+        display: inline-block;
+    margin: 20px
+
+    
+    
+    /* Estilo do container com os 4 títulos */
+    /* Estilo do container com os 4 títulos */
+.container-fluid.items {
+    background-color: white;
+    padding: 99px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: auto;
+    width: min-content;
+    margin: 70px;
+    box-sizing: content-box;
+    justify-self: center;
+}
+
+.sectionEpm {
+    background: #f9f9f9;
+    padding: 20px;
+    flex: 1 1 calc(25% - 20px);
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-width: 250px;
+}
+
+.sectionEpm:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.sectionEpm h2 {
+    font-size: 1.5em;
+    color: #ff6c0b;
+    margin-bottom: 10px;
+}
+
+.sectionEpm p {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.4;
+}
+h2{
+  font-size: 56px;
+  line-height: 20px;
+  font-family: 'poppinsmedium';
+}
+h3{
+        
+    font-size: 56px;
+    z-index: -1;
+    font-family: 'poppinsmedium';
+}
+
+
+    
+  .section li {
+      font-size: 1.5rem;
+      font-family: 'Arial', sans-serif;
+      color: #ff6c0b; /* Cor de destaque */
+      list-style-type: none;
+      
+      
+    }
+      nav a {
+          margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/*.card-wrapper{
+display: flex;
+}
+
+.card{
+    margin: 0.5cm;
+}*/
+
+.barra{
+    display: flex;
+        margin: 5px 0;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        max-width: 800px;
+        margin: 20px auto;
+        align-items: stretch;
+        flex-wrap: nowrap;
+ }
+ 
+.perguntas {
+    margin-top: 0px;
+    flex-direction: row-reverse;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+
+.mei {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Centraliza as seções */
+    border-radius: 10px;
+    animation: fadeIn 1s forwards;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+    font-family: fantasy;
+    font-size: x-large;
+
+
+    
+}
+
+.sect {
+    
+    background: rgba(230, 221, 221, 0.5); /* Fundo semi-transparente para destacar */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Centraliza as seções */
+    border-radius: 10px;
+    animation: fadeIn 1s forwards;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: flex;
+}
+
+.sect  h3{
+        
+    font-size: 29px;
+    z-index: -1;
+    font-family: 'poppinsmedium';
+}
+.cta {
+    background-color: #ff9800;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white; 
+    text-decoration: none;
+    transition: background 0.9s;
+}
+
+.cta:hover {
+    background-color: #e68a00;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente para destacar */
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto; /* Centraliza as seções */
+    border-radius: 10px;
+    animation: fadeIn 1s forwards;
+}
+
+
+.img-projetos {
+    margin-top: 0px;
+    flex-direction: row-reverse;
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+
+}
+
+
+
+.image-projetos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Espaço entre as imagens */
+    justify-content: center;
+    padding: 20px;
+}
+
+.small-img {
+    width: 150px; /* Tamanho pequeno das imagens */
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.small-img:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para a imagem expandida */
+.expanded {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.5); /* Centraliza e aumenta a imagem */
+    z-index: 1000;
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Container principal que organiza a barra e a imagem */
+.container-com-imagem {
+    display: flex; /* Organiza as divs lado a lado */
+    gap: 20px; /* Espaço entre a barra e a imagem */
+    align-items: flex-start; /* Alinha as divs no topo */
+    margin: 20px 0; /* Espaço externo */
+}
+
+/* Estilo para a div da barra (perguntas) */
+.barra {
+    flex: 1; /* Faz a barra ocupar o espaço restante */
+    background: rgba(255, 255, 255, 0.5); /* Fundo semi-transparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Estilo para a div da imagem */
+.imagem-grande {
+    width: 50%; /* Define a largura da imagem */
+    max-width: 600px; /* Limita o tamanho máximo */
+}
+
+.imagem-grande img {
+    width: 815%; /* Faz a imagem ocupar 100% da div */
+    height: auto; /* Mantém a proporção */
+  }
+
+/* Ajustes para responsividade */
+@media (max-width: 768px) {
+    .container-com-imagem {
+        flex-direction: column; /* Em telas pequenas, a imagem fica abaixo da barra */
+    }
+    .imagem-grande {
+        width: 100%; /* A imagem ocupa toda a largura */
+        max-width: none; /* Remove o limite de largura */
+    }
+}
+
+
+.promo {
+    background-color: #ffeb3b;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+.icones{
+    display: flex
+    ;
+        width: 76%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 275px
+
+}
+
+
+
+footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    padding: 0 20px;
+     
+}
+
+.footer-dark {
+    padding:50px 0;
+    color:#f0f9ff;
+    background-color:#282d32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0;
+    margin: -10px;
+    
+  }
+  
+  
+  
+  .footer2 {
+ 
+        display: flex;
+        width: 109%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 200px;
+  }
+  
+  @media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+      text-align:center;
+      padding-bottom:20px;
+    }
+  }
+  
+  
+  @media (max-width:767px) {
+    .footer-dark .item.text {
+      margin-bottom:0;
+    }
+  }
+  @media (max-width:991px) {
+    .footer-dark .item.social {
+      text-align:center;
+      margin-top:20px;
+    }
+  }
+  
+
+.inicio {
+    background-color: #636363;
+    height: 26px;
+    
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0px 0;
+}
+
+
+.sobre-nos {
+    color: rgb(17, 15, 15);
+    background-color: #ffffff;
+    padding: 50px;
+    
+}
+
+.sobre-nos p{
+    color: rgb(14, 11, 11);
+    background-color: #f9f9f9;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.sobre-nos:hover{
+    color: rgb(36, 13, 49);
+    transition: 0.3s all;
+    
+    border: 2px solid rgb(8, 56, 129);
+    padding: 10px;
+    border-radius: 15px;
+    
+    background-color:  rgb(8, 56, 129);
+    color: rgb(12, 4, 4);
+}
+
+   #map {
+            height: 400px;
+            width: 100%;
+        }
